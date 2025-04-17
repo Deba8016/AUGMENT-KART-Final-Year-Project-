@@ -2,32 +2,65 @@
   Content-Type: application/javascript
   Content-Encoding: gzip
 
+/*.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
+
 /*.data.gz
   Content-Type: application/octet-stream
   Content-Encoding: gzip
+
+/*.data.br
+  Content-Type: application/octet-stream
+  Content-Encoding: br
 
 /*.wasm.gz
   Content-Type: application/wasm
   Content-Encoding: gzip
 
+/*.wasm.br
+  Content-Type: application/wasm
+  Content-Encoding: br
+
 /*.symbols.json.gz
   Content-Type: application/json
   Content-Encoding: gzip
+
+/*.symbols.json.br
+  Content-Type: application/json
+  Content-Encoding: br
+
 /*.js.unityweb
   Content-Type: application/javascript
   Content-Encoding: gzip
+
+/*.js.unityweb.br
+  Content-Type: application/javascript
+  Content-Encoding: br
 
 /*.data.unityweb
   Content-Type: application/octet-stream
   Content-Encoding: gzip
 
+/*.data.unityweb.br
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+
 /*.wasm.unityweb
   Content-Type: application/wasm
   Content-Encoding: gzip
 
+/*.wasm.unityweb.br
+  Content-Type: application/wasm
+  Content-Encoding: br
+
 /*.symbols.json
   Content-Type: application/json
   Content-Encoding: gzip
+
+/*.symbols.json.br
+  Content-Type: application/json
+  Content-Encoding: br
 
 /index.html
   Content-Type: text/html
