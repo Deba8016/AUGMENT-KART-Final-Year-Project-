@@ -120,7 +120,7 @@ const SignUp = ({ isOpen, onClose, switchToLogin }) => {
                 console.log("SIGNUP", res)
                 if (res.status === 201) {
                     console.log(res.token)
-                    localStorage.setItem("token", res.token);
+                    localStorage.setItem("token", res.data.token);
                     Notiflix.Notify.success('Successfully Registered ! Redirecting to Home...')
                     onClose(); // Redirect to home or dashboard
                     setTimeout(() => {

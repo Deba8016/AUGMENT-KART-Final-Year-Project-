@@ -113,7 +113,7 @@ const ProductDetails = () => {
           {/* Product Info */}
           <div className="col-md-6">
             <h2 className="fw-bold">{product.name}</h2>
-            <h4 className="text-success mb-3">₹{product.price}</h4>
+            <h4 className="text-success mb-3">{product.price}</h4>
             <p>
               &#8226; Packed with nutrients and flavor, {product.name} is perfect for a nutritious and satisfying addition to your meals.
               <br /><br />

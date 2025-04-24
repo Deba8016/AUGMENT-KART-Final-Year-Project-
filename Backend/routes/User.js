@@ -56,6 +56,7 @@ router.post("/addUser", async (req, res) => {
       process.env.JWT_SECRET_TOKEN,
       { expiresIn: '7d' }
     );
+    console.log(token);
 
     res.status(201).json({ message: "User Registered Successfully", token });
   } catch (error) {

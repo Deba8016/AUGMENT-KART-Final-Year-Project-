@@ -7,7 +7,9 @@ const URL = `${import.meta.env.VITE_APP_BACKEND_URL}/user`
 // Add User
 export const addUser = async (data) => {
     try {
-        return await axios.post(`${URL}/addUser`, data);
+        const response =  await axios.post(`${URL}/addUser`, data);
+        console.log("API: ",response)
+        return response;
     } catch (error) {
         console.error('Error While Connecting API:', error);
         return error.response ? error.response : { message: 'Unknown error occurred' };

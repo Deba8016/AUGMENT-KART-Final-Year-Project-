@@ -10,6 +10,7 @@ import { jwtDecode } from 'jwt-decode';
 import Notiflix from 'notiflix';
 import WebProfileImage from '../components/WebProfileImage';
 import Header from '../components/Header';
+import { Link } from 'react-router-dom';
 
 const URL = import.meta.env.VITE_APP_BACKEND_URL;
 
@@ -440,12 +441,14 @@ const WebProfilePage = () => {
                     <div className="products-row d-flex">
                       {order.products.map((item) => (
                         <span key={item._id} className="product-card" style={{ borderRadius: "10px", border: "1px solid black", minWidth: "100px", padding: "1px" }} >
+                          <Link to={`/productDetails/${item.product._id}`}>
                           <img
                             src={`${URL}/images/product-images/${item.product.image}`}
                             alt={item.product.name}
                             className="product-image"
                             style={{ height: "100px", width: "auto" }}
                           />
+                          </Link>
                         </span>
                       ))}
                     </div>
