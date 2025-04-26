@@ -19,7 +19,7 @@ expo-error.log
 Thumbs.db
 
 # Environment variables
-.env
+/.env
 .env.local
 
 # React Native
