@@ -9,6 +9,7 @@ import ImageSlider from '../components/ImageSlider';
 import BestSeller from '../components/BestSeller';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import Footer from '../components/Footer';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -52,6 +53,7 @@ const HomeScreen = () => {
       <CategoryList />
       <NewlyLaunched />
       <BestSeller />
+      <Footer />
     </ScrollView>
   );
 };
