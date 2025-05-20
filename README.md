@@ -87,6 +87,7 @@ A next-generation **Augmented Reality (AR)** e-commerce platform that transforms
 git clone https://github.com/your-username/ar-ecommerce-platform.git
 cd ar-ecommerce-platform
 ```
+---
 
 ### 2. Start the Backend
 
@@ -102,6 +103,7 @@ MONGO_URI=<your_mongodb_connection_string>
 RAZORPAY_KEY_ID=<your_key_id>
 RAZORPAY_KEY_SECRET=<your_secret>
 ```
+---
 
 ### 3. Start the Web Frontend
 ```bash
@@ -110,10 +112,12 @@ npm install
 npm run dev
 ```
 Visit: http://localhost:5173 (or the port shown in the terminal)
+---
 
 ### 4. Download and Use the Mobile App
 
 🔗 **[Download the Mobile App](https://drive.google.com/file/d/1BVK86xQbKG-em-eK2DSpB16TbtgYKaTV/view?usp=sharing)**  
+---
 
 ### 5. Access the Unity 3D AR Store
 
@@ -123,7 +127,7 @@ Use this link inside the AR view <a> tag
 
 ---
 
-### 5. 📂 Project Structure
+### 6. 📂 Project Structure
 
 ```
 ar-ecommerce-platform/
@@ -138,7 +142,7 @@ ar-ecommerce-platform/
 
 ---
 
-### 6. 🔧 Future Enhancements
+### 7. 🔧 Future Enhancements
 
 - [ ] Voice command support
 - [ ] ARKit/ARCore enhancements
@@ -148,7 +152,7 @@ ar-ecommerce-platform/
 ---
 
 
-### 7. 🙋‍♂️ Contributions
+### 8. 🙋‍♂️ Contributions
 
 Contributions, feature requests, and suggestions are welcome.  
 Feel free to fork this repo and open a pull request!
